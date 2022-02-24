@@ -1,0 +1,10 @@
+db.USERS.insertMany(
+   [
+	{name:"Khamouri", surname:"Mohamed", email:"m.khamouri@domain.com", phone_numbers: {cellphone:"0673546473", phone:"045087784"}},
+	{name:"Borruto", surname:"Luca", email:"l.borruto@domain.com", phone_numbers:{cellphone:"067898989"}, address:{country:"France", postal_code:"69001", city:"Lyon", street:{street_name:"Rue Victor Hugo", street_number:"11"}}},
+	{name:"Dupont", surname:"Michel", email:"mdupont@domain.com", phone_numbers:{cellphone:"0689876545", phone:"0450787656"}, address:{country:"France", postal_code:"69002", city:"Lyon", street:{street_name:"Rue de la République", street_number:"37"}}},
+	{name:"John", surname:"Doe", email:"john.doe@domain.com", phone_numbers:{cellphone:"0989761121"}, address:{country:"United-States", postal_code:"43311", city:"Akron", state:"OH", street:{street_name:"Rivendell Drive", street_number:"952"}}},
+	{name:"Scherer", surname:"Jonas", email:"s.j@domain.com", phone_numbers:{cellphone:"08459727531"}, address:{country:"Germanny", postal_code:"85077", city:"Manching", street:{street_name:"Rankestrasse", street_number:"31"}}},
+	{name:"Wahhab", surname:"Basara", email:"basarawahhab@domain.com", phone_numbers: {cellphone:"0678787899"}, address:{country:"France"}},
+   ]
+)
