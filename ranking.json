@@ -1,0 +1,7 @@
+db.RANKING.insertMany(
+   [
+	{title:{eng:"Best movie of 2022", fra:"Meilleur film de 2022"}, contains:{imdb:"tt1877830", rating:"100%"}},
+   {title:{eng:"Most watched tv shows", fra:"Serie la plus regardée"}, contains:{imdb:"tt5753856", views:"56k"}},
+   {title:{eng:"Most watched movie", fra:"Film le plus regardé"}, contains:{imdb:"tt3783958", views:"69k"}},
+   ]
+)
